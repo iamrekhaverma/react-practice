@@ -1,0 +1,40 @@
+.vertical-filters-filters {
+		padding-top: 20px;
+		padding-bottom: 15px;
+		padding-left: 25px;
+		border-bottom: 1px solid #e9e9ed;
+		position: relative;
+    .vertical-filters-label {
+        display: block;
+        width: 95%;
+        white-space: nowrap;
+        cursor: pointer;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        min-height: 17px;
+        color: #282c3f
+    }
+    &:last-child {
+        border-bottom: none;
+        padding-bottom: 0;
+        margin-bottom: 0
+    }
+    .vertical-filters-header {
+        font-weight: 600;
+        text-transform: uppercase;
+        font-size: 14px;
+        margin: 0 0 18px;
+        clear: both;
+        color: #282c3f;
+        display: block
+    }
+	}
+  .header-title {
+    font-weight: 600;
+  }
+
+.header-container {
+    position: relative;
+    border-right: none!important;
+    padding-top: 0;
+}

@@ -1,0 +1,190 @@
+{
+  "product-categories": [
+    {
+      "id": 100,
+      "description": "Electronics",
+      "name": "Electronics"
+    },
+    {
+      "id": 101,
+      "description": "Accessories",
+      "name": "Accessories"
+    },
+    {
+      "id": 102,
+      "description": "Clothes",
+      "name": "Clothes"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "White T-Shirt",
+      "description": "White T-Shirt for women",
+      "price": 16.99,
+      "gender": "women",
+      "type": "shirt",
+      "img": "http://localhost:3000/best-t-shirts-for-women-22.jpg",
+      "inCart": false,
+      "category": "Clothes",
+      "brand": "Libas"
+    },
+    {
+      "id": 2,
+      "name": "Light Brown Shirt",
+      "description": "Light Brown Shirt for Women",
+      "price": 4.99,
+      "gender": "women",
+      "type": "shirt",
+      "img": "http://localhost:3000/img1.jpg",
+      "inCart": false,
+      "category": "Clothes",
+      "brand": "Libas"
+    },
+    {
+      "id": 3,
+      "name": "Women Grey Shirt",
+      "description": "Grey Shirt for Women",
+      "price": 14.99,
+      "gender": "women",
+      "type": "shirt",
+      "img": "http://localhost:3000/img1.jpg",
+      "inCart": false,
+      "brand": "Anouk",
+      "category": "Clothes"
+    },
+    {
+      "id": 4,
+      "name": "Warm Shirt Women",
+      "description": "Woolen Hoodie Women",
+      "price": 20.00,
+      "gender": "women",
+      "type": "shirt",
+      "img": "http://localhost:3000/img4.jpg",
+      "inCart": false,
+      "brand": "Libas",
+      "category": "Clothes"
+    },
+    {
+      "id": 5,
+      "name": "Women Grey Shirt",
+      "description": "Light Grey Shirt for Women",
+      "price": 4.99,
+      "gender": "women",
+      "type": "shirt",
+      "img": "http://localhost:3000/img5.jpg",
+      "inCart": false,
+      "brand": "Libas",
+      "category": "Clothes"
+    },
+    {
+      "id": 6,
+      "name": "Women Red/Brown Shirt",
+      "description": "Red/Brown Blouse for Women",
+      "price": 19.99,
+      "gender": "women",
+      "type": "blouse",
+      "img": "http://localhost:3000/img6.jpg",
+      "inCart": false,
+      "brand": "Libas",
+      "category": "Clothes"
+    },
+    {
+      "id": 7,
+      "name": "Dark Grey Shirt Women",
+      "description": "Dark Grey Shirt for Women",
+      "price": 6.00,
+      "gender": "women",
+      "type": "shirt",
+      "img": "http://localhost:3000/img7.jpg",
+      "inCart": false,
+      "brand": "Libas",
+      "category": "Clothes"
+    },
+    {
+      "id": 8,
+      "name": "White Shirt Women",
+      "description": "White Shirt for Women",
+      "price": 14.99,
+      "gender": "women",
+      "type": "shirt",
+      "img": "http://localhost:3000/img8.jpg",
+      "inCart": false,
+      "brand": "Libas",
+      "category": "Clothes"
+    },
+    {
+      "id": 9,
+      "name": "Black Shirt Women",
+      "description": "Black Shirt for Women",
+      "price": 20.99,
+      "gender": "women",
+      "type": "shirt",
+      "img": "http://localhost:3000/img10.jpg",
+      "inCart": false,
+      "brand": "Vishudh",
+      "category": "Clothes"
+    },
+    {
+      "id": 10,
+      "name": "No Shoulder Hoodie",
+      "description": "Hoodie for Women",
+      "price": 4.99,
+      "gender": "women",
+      "type": "shirt",
+      "brand": "Libas",
+      "img": "http://localhost:3000/img9.jpg",
+      "inCart": false,
+      "category": "Clothes"
+    },
+    {
+      "id": 11,
+      "name": "Women Watch Gold",
+      "description": "Golden Watch for Women",
+      "price": 45.99,
+      "gender": "women",
+      "brand": "Libas",
+      "type": "watch",
+      "img": "http://localhost:3000/watch-wrist-watch-packshot-time-69046.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb",
+      "inCart": false,
+      "category": "Accessories"
+    },
+    {
+      "id": 12,
+      "name": "Black Pearl Necklace",
+      "description": "Black Pearl Necklace for Women",
+      "price": 14.99,
+      "gender": "women",
+      "brand": "Libas",
+      "type": "necklace",
+      "img": "http://localhost:3000/pexels-photo-221550.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb",
+      "inCart": false,
+      "category": "Accessories"
+    },
+    {
+      "id": 19,
+      "brand": "Libas",
+      "name": "4-Pack Man Ties",
+      "description": "Ties for Men",
+      "price": 35.99,
+      "gender": "men",
+      "type": "tie",
+      "img": "http://localhost:3000/3035404_orig.png",
+      "inCart": false,
+      "category": "Accessories"
+    },
+    {
+      "id": 20,
+      "name": "Man Black Tie",
+      "description": "Black Tie for Men",
+      "price": 15.99,
+      "brand": "Libas",
+      "gender": "men",
+      "type": "tie",
+      "img": "http://localhost:3000/what_does_your_mans_tie_tell_about_his_personality_.jpg",
+      "inCart": false,
+      "category": "Accessories"
+    }
+  ],
+  "brands": ["Libas","Anouk","Vishudh","Puma","Roadster"]
+}

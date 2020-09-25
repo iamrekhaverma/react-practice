@@ -1,0 +1,76 @@
+.application-base {
+    margin-top:  60px;
+    min-height: 750px;
+}
+.desktop-container {
+  color: #fff;
+  height: 80px;
+  box-shadow: 0 4px 12px 0 rgba(0,0,0,.05);
+  background-color:#fff;
+  .desktop-logoContainer {
+    float: left;
+    height: 100%;
+    margin-left: 4%;
+    padding: 5px;
+  }
+  .desktop-main {
+    padding: 0 17px 28px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: .3px;
+    color: #282c3f;
+    border-bottom: none;
+    -webkit-transition: left .2s ease-out,width .2s ease-out;
+    transition: left .2s ease-out,width .2s ease-out;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+  .desktop-actions {
+    float: right;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    line-height: 0;
+    height: 40px;
+    margin: 20px 30px 0 10px;
+  }
+  .desktop-user {
+    position: relative;
+    height: 60px;
+    margin: 0 20px 0 15px;
+  }
+  .desktop-logo {
+      display: block;
+      height: 73px;
+      width: 50px;
+  }
+  
+  .desktop-cart {
+    display: flex;
+    text-decoration: none;
+    position: relative;
+    background: #282c3f;
+    color: white;
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+    border-radius: 50%;
+    font-size: 24px;
+    .badge {
+      white-space: nowrap;
+      text-align: center;
+      line-height: 18px;
+      padding: 0 3px;
+      height: 17px;
+      background: #eb5d24;
+      position: absolute;
+      border-radius: 50%;
+      font-size: 11px;
+      color: #fff;
+      left: 18px;
+      top: -5px;
+      font-weight: 700;
+    }
+  }
+}

@@ -1,0 +1,19 @@
+.desktop-navbar {
+  display: block;
+  float: left;
+  line-height: 80px;
+  height: 80px;
+  margin: 0 0 0 3.5%;
+  line-height: 80px;
+  .desktop-navLinks {
+    float: left;
+  }
+  .desktop-navContent {
+    float: left;
+    border: hidden;
+    text-align: center;
+  }
+  .desktop-navLink {
+    display: inline;
+  }
+}
